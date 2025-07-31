@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    padding: 1.2rem;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+    border-radius: 16px;;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+.badge {
+    display: inline-block;
+    margin: 12px 0;
+    padding: 5px 20px;
+    border-radius: 40px;
+    background-color: #F2EAFD;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    color: #7C19EE;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+}
+p {
+    margin-top: 4px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    text-align: start;
+    color: #394150;
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0.5px;
+    width:100%;
+    background-color: #e5eaf0;
+}
+
+.footer {
+    margin-top: 30px;
+    color: #394150;
+    font-family: "Sora", sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
